@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Creating Tables -->
+<table border ="1">
+    <thead>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1234</td>
+            <td>BILL</td>
+            <td>Male</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>3214</td>
+            <td>Jon</td>
+            <td>Male</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>4567</td>
+            <td>Angilia</td>
+            <td>Female</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>3214</td>
+            <td>Lily</td>
+            <td>Female</td>
+            <td>21</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Extending A particular row or a column -->
+<table border ="1">
+    <thead>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1234</td>
+            <td colspan="3">BILL</td>
+           
+        </tr>
+        <tr>
+            <td>3214</td>
+            <td>Jon</td>
+            <td>Male</td>
+            <td rowspan="3">20</td>
+        </tr>
+        <tr>
+            <td>4567</td>
+            <td>Angilia</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>3214</td>
+            <td>Lily</td>
+            <td>Female</td>
+         
+        </tr>
+    </tbody>
+</table>
+
+<!-- 2nd Example -->
+<table border="3">
+    <thead>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 2 Cell 2</td>
+            <td>ROW 3 Cell 3</td>
+        </tr>
+        <tr>
+            
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        
+        </tr>
+    </tbody>
+</table>  
+
+<!-- Example 3 -->
+<table border="2">
+    <thead>
+        <th>No.</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>Type</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill gates</td>
+            <td>Founder Microsoft</td>
+            <td>1000$</td>
+            <td rowspan="4"> Company founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td> Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>1200$</td>
+           
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>1100$</td>
+           
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>Founder Facebook</td>
+            <td>1300$</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Expenses:</td>
+            <td>$4600</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Example 4 --> 
+<table border="2">
+    <thead>
+        <td>Country</td>
+        <td>State</td>
+        <td>City</td>
+        <td>Street</td>
+        <td>Male</td>
+        <td>Female</td>
+        <td>Others</td>
+    </thead>
+    <tbody>
+        <tr>
+        
+            <td rowspan="8">1</td>
+            <td rowspan="4">kerala</td>
+            <td rowspan="2">Cochin</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            
+            <td>Main Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+        
+            
+            <td rowspan="2">Trivandrum</td>
+            <td>Guru Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>TVK Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Maharstra</td>
+            <td rowspan="2">Mumbai</td>
+            <td>Krisha Street</td>
+            <td>700</td>
+            <td>850</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td> Main Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Surath</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Billa Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Alaska</td>
+            <td rowspan="2">AKA Central</td>
+            <td>New Street</td>
+            <td>200</td>
+            <td>210</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Cross Street</td>
+            <td>1000</td>
+            <td>1050</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Example 5 -->
+<table border="2">
+    <thead>
+        <tr>
+        <td rowspan="3">Day</td>
+        <td colspan="4">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+                </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m</td>
+                <td rowspan="2">5:00 p.m</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td> Validity : DTD and Relax NG</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 a.m</td>
+                <td rowspan="2"> X path</td>
+            </tr>
+            <tr>
+                
+                <td>11:00 a.m</td>
+                <td>2:00 a.m</td>
+                <td rowspan="2"> XSl Transformations</td>
+               
+                
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 p.m</td>
+                <td>12:00 p.m</td>
+                <td> XSl Formatting Objects</td>
+                
+            </tr>
+         </tbody>
+</table>
+    
+</body>
+</html>

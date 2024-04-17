@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Forms</h2>
+    <form onsubmit="
+    event.preventDefault();
+    console.log(event);
+    ">
+        <Fieldset>
+            <legend>Personal Information</legend>
+
+        <label for="name"> Name:</label>
+        <input type="text" name="Textfield" id="name" required>
+        <br/>
+        <br/>
+        <label for="emailId"> Email Id:</label>
+        <input type="email" name="Textfield" id="emailId" required>
+        <br/>
+        <br/>
+        <label for="phoneNo"> Phone: </label>
+        <input type="tel" name="Phone" id="phoneNo">
+        <br/>
+        <br/>
+        <label for="datepicker1"> Date of Birth: </label>
+        <input type="date" name="datepicker" id="datepicker1">
+        <br/>
+        <br/>
+
+        <span>Gender:</span>
+        <label for="box2"> Male:</label>
+        <input type="radio" name="radiobox" id="box2">
+
+        <label for="box1"> Female</label>
+        <input type="radio" name="radioboxx" id="box1">
+        <br/>
+        <br/>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+        <option value="US">United States</option>
+        <option value="India">India</option>
+        <option value="Singapore">Singapore</option>
+        </select>
+        </Fieldset>
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <label for="Street"> Street:</label>
+            <input type="text" name="Textfield" id="Street">
+            <br/>
+            <br/>
+            <label for="city"> City:</label>
+            <input type="text" name="Textfield" id="city">
+            <br/>
+            <br/>
+
+            <label for="state"> State:</label>
+            <input type="text" name="Textfield" id="State">
+            <br/>
+            <br/>
+
+            <label for="zipcode"> Zipcode:</label>
+            <input type="text" name="Textfield" id="zipcode">
+            <br/>
+            <br/>
+         </fieldset>
+       
+       <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments">Comments</label>
+        <br/>
+        <textarea name="Textarea" id="comments" cols="30" rows="10"></textarea>
+        <br/>
+        <label for="checkbox1"> I agree to the terms of service:</label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+
+       </fieldset>
+       <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>

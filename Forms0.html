@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Creating Forms -->
+    <!-- different form attributes:type,id,name,for,placeholder -->
+<form action="">
+    <!-- for attributes value must be equal to input tags id -->
+    <label for="email">Enter Email ID</label>
+    <input type="text"id="email" placeholder="Enter your email here">
+<br/>
+<br/>
+    <label for="password">Enter Password</label>
+    <input type="text"id="password" placeholder="Enter your password">
+<br/>
+<br/>
+<!-- data will be submitted value is  the name reflected on button-->
+    <input type="submit" value="Submit"> 
+    <button>Click here</button>
+</form>
+<br/>
+<br/>
+
+    <!-- Different Form Elements -->
+    <!-- input,label,select,option,button.textarea,fieldset,legend -->
+
+    <form action="">
+<label for="datepicker">Enter your D.O.B</label>
+<input type="date" id="datepicker">
+<br/>
+<br/>
+<label for="selector">Choose your trip</label>
+<select name="treks" id="selector">
+<option value="Sheeshnag">Sheeshnag</option>
+<option value="Harmukh">Harmukh</option>
+<option value="Kounsarnag">Kounsarnag</option>
+<option value="Sonsar">Sonsar</option>
+</select>
+<br/>
+<br/>
+
+<textarea name="Feeback" id="Feedback" cols="30" rows="10" placeholder="Enter your Feedback here">
+</textarea>
+</form>
+<br/>
+<br/>
+
+<!-- Concept of Feildset -->
+<Fieldset>
+    <h2>Registration form</h2>
+    <form action="">
+        <!-- for attributes value must be equal to input tags id -->
+        <label for="email">Enter Email ID</label>
+        <input type="text"id="email" placeholder="Enter your email here">
+    <br/>
+    <br/>
+        <label for="password">Enter Password</label>
+        <input type="text"id="password" placeholder="Enter your password">
+    <br/>
+    <br/>
+    <!-- data will be submitted value is  the name reflected on button-->
+        <input type="submit" value="Submit"> 
+        <button> Forget Password</button>
+        <br/>
+        <br/>
+        <label for="New user">New User</label>
+        <input type="submit" id="New User" value="Create Account"> 
+    </form>
+</Fieldset>
+<br/>
+<br/>
+
+
+    <form action="">
+        <Fieldset>
+        <legend>HTML FORM DUMMY</legend>
+        <label for="selector">Choose your trip</label>
+        <select name="treks" id="selector">
+        <option value="Sheeshnag">Sheeshnag</option>
+        <option value="Harmukh">Harmukh</option>
+        <option value="Kounsarnag">Kounsarnag</option>
+        <option value="Sonsar">Sonsar</option>
+        </select>
+        <br/>
+        <br/>
+        <!-- Textarea -->
+        <textarea name="Feeback" id="Feedback" cols="30" rows="10" placeholder=" Enter your Feedback here"></textarea>
+</Fieldset>
+</form>
+
+
+
+</body>
+</html>
